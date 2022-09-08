@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none !important;
+    text-transform: capitalize;
+}
+
+header .row{
+ /* align-items: center;
+ justify-content: space-between; */
+
+
+}
+
+.row{
+   
+    
+    
+}
+
+.container{
+    
+}
+/* header .left{
+    width: 20%;
+    float: left;
+
+}
+
+header .right{
+    width: 30;
+    float: right;
+} */
+
+
+/* header .middle{
+    
+    margin: 0 auto;
+
+} */
+header{
+    background-color: black;
+  
+   
+}
+
+header .left a img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: -35px;
+    border: 2px solid rgb(68, 68, 68);
+    display: inline;
+    margin-bottom: -60px;
+    
+}
+header ul li .nav-item a{
+    color: rgb(255, 255, 255);
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top:6.5rem;
+
+}
+
+/* .header nav a{
+    margin: 0 1rem;
+    font-size: 1.7rem;
+    
+    color: rgb(251, 253, 255);
+    display: inline;
+   
+    
+
+} */
+/* .header nav{
+    
+    padding: 5%;
+} */
+
+/* .header nav a:hover{
+    
+    color: gray;
+    background-color:rgba(161, 159, 159, 0.568) ;
+
+
+} */
+
+
+.link-btn{
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 40%;
+    background-color: gray;
+    cursor: pointer;
+    color: black;
+    margin: 0 1rem;
+    font-size: 1.7rem;
+    border: 1px gray solid;
+  
+   
+   margin-top: 5%;
+  
+}
+section .home{
+    padding: 14rem 2rem;
+}
+
+.link-btn:hover{
+   background-color: black;
+   color: rgb(250, 245, 245);
+}
+
+ .home{
+
+    background-position: center;
+    background-size: cover;
+background:url(./image/chair-dentist-dental-clinic.jpg);
+}
+#random{
+    background-color: black;
+    padding: 4% 7%;
+
+}
+.text{
+    padding-top: 50px;
+
+}
+#random p{
+
+    font-size: 35px;
+    line-height: 50px;
+    font-family: 'Merriweather', serif;
+font-family: 'Smooch', cursive;
+font-family: 'Tiro Gurmukhi', serif;
+font-weight: 900;
+color:rgb(201, 239, 252) ;
+padding-left: 170px;
+
+}
+
+section .third{
+    background-color: rgba(109, 69, 69, 0.867);
+}
+.third .card h5 .open{
+    background-color: rgb(139, 113, 113);
+
+}
+.open{
+    background-color: rgb(206, 199, 199);
+    padding: 15px;
+    font-size:large ;
+    font-weight: 900;
+    text-align: center;
+    border-radius: 5px;
+    
+    
+}
+
+.card{
+    width: 700px;
+    height: 250px;
+   
+}
+.fcard{
+   padding-top: 5%;
+   padding-bottom: 5%;
+   width: 30%;
+   padding-left: 0px;
+   padding-right: 0px;
+   margin-left: 1px;
+   margin-right: 1px;
+     
+}
+ .third .row{
+    padding-left: 7%;
+ }
+ .line{
+    width: 100%;
+    height: 2px;
+    background-color: grey;
+
+
+ }
+
+
+
+
+
+
+
+
+
+@media(max-width:991px){
+    html{
+        font-size: 55%;
+    }
+
+}
+
+
+@media(max-width:450px){
+    .third{
+        flex-direction: column !important;
+    }
+    html{
+        font-size: 50%;
+    }
+    .text{
+      
+        font-size: 12px;
+        line-height: 30px;
+        /* margin: 20px; */
+        
+        /* margin-left:30%; */
+        /* text-align: center; */
+        /* float: right; */
+        /* justify-content: center; */
+       
+    
+    }
+    #random img{
+        
+    }
+    #random p{
+    
+      
+        font-family: 'Merriweather', serif;
+    font-family: 'Smooch', cursive;
+    font-family: 'Tiro Gurmukhi', serif;
+    
+    color:rgb(212, 242, 252) ;
+    
+    
+    
+    }
+
+    #random .center{
+        
+        /* text-align: center; */
+        display: inline-block;
+
+        
+    }
+    #random {
+        flex-direction: column !important;
+        
+    }
+    .fcard{
+        flex-direction: column !important;
+
+    }
+    
+
+}
+
+
+@media(max-width:768px){
+
+    .fcard{
+        padding-top: 5%;
+        padding-bottom: 5%;
+       
+        padding-left: 0px;
+        padding-right: 0px;
+       
+     }
+     .card{
+        
+     }
+    #random p{
+    
+        font-size: 35px;
+        line-height: 50px;
+        font-family: 'Merriweather', serif;
+    font-family: 'Smooch', cursive;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-weight: 900;
+    color:rgb(212, 242, 252) ;
+    /* padding-left: 50px; */
+    padding: 0px;
+    margin: 0px;
+   
+    }
+   
+    /* .text{
+      
+        font-size: 15px;
+        line-height: 30px;
+        padding: 0px;
+    margin: 0px;
+        
+       
+        
+
+    } */
+
+    #random .center{
+        
+        text-align: center;
+        display: inline-block;
+      
+        
+    }
+    #random img{
+        
+        text-align: center;
+        margin-left: 140px;
+        
+    }
+  
+
+}
